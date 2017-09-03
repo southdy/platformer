@@ -4,8 +4,9 @@
 
 A sample platformer game for a modified fork of GamePlay3D 3.0
 
-========
 ![ScreenShot](https://raw.githubusercontent.com/louis-mclaughlin/platformer/master/raw/textures/promo.png)
+
+# Setup
 
 ## Linux
 
