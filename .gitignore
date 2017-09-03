@@ -1,0 +1,16 @@
+/android/assets
+/android/bin
+/android/gameplay/libs
+/android/gameplay/obj
+/android/gen
+/android/libs
+/android/obj
+/android/src
+/android/local.properties
+/android/proguard-project.txt
+/build
+/src/org
+/res/res
+*.user
+user.config
+*.DS_Store

@@ -1,0 +1,72 @@
+spritesheet = res/spritesheets/bg.ss
+fill = 0.7686274509803922, 0.9294117647058824, 0.9411764705882353, 1
+offset = 0, 450
+
+layer
+{
+    id = bg_cactus
+    speed = 0.065
+    offset = 100, 0
+}
+
+layer
+{
+    id = bg_mushrooms
+    speed = 0.015
+    offset = 0, 0
+}
+
+layer
+{
+    id = fg_horizon
+    speed = 0.25
+    offset = 0, 0
+}
+
+layer
+{
+    id = fg_clouds
+    speed = 1.5
+    camera_independent = true
+    offset = 0, 0
+}
+
+layer
+{
+    id = bg_clouds
+    speed = -0.75
+    camera_independent = true
+    offset = 0, 64
+}
+
+layer
+{
+    id = fg_clouds
+    speed = -1.5
+    camera_independent = true
+    offset = 0, 150
+}
+
+layer
+{
+    id = bg_clouds
+    speed = 0.75
+    camera_independent = true
+    offset = 0, 214
+}
+
+layer
+{
+    id = fg_clouds
+    speed = 1.5
+    camera_independent = true
+    offset = 0, 300
+}
+
+layer
+{
+    id = bg_clouds
+    speed = -0.75
+    camera_independent = true
+    offset = 0, 364
+}

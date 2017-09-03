@@ -1,0 +1,462 @@
+player
+{
+    ${Scale} = 5, 5
+    ${Svg} = platformer-pack-redux-360-assets/vector_characters.svg
+    ${MarginId} = player
+
+    front
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            marginId = ${MarginId}
+            region = 6.800, 613.8, 65.200, 93.800
+        }
+    }
+
+    stand
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            marginId = ${MarginId}
+            region = 87.008, 612.000, 66.292, 91.950
+        }
+    }
+
+    jump
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            marginId = ${MarginId}
+            region = 166.450, 615.300, 67.133, 95.315
+        }
+    }
+
+    hurt
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            marginId = ${MarginId}
+            region = 325.850, 614.050, 68.350, 94.073
+        }
+    }
+
+    swim__
+    {
+        frame 00
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            marginId = ${MarginId}
+            region = 725.850, 616.800, 68.350, 96.777
+        }
+
+        frame 01 : 00
+        {
+            region = 805.467, 618.450, 69.140, 98.427
+        }
+    }
+
+    walk__
+    {
+        frame 00
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            marginId = ${MarginId}
+            region = 406.544, 615.150, 66.956, 95.141
+        }
+
+        frame 01 : 00
+        {
+            region = 485.044, 617.650, 69.942, 97.634
+        }
+    }
+
+    climb__
+    {
+        frame 00
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            marginId = ${MarginId}
+            region = 567.400, 613.800, 65.200, 93.800
+        }
+
+        frame 01 : 00
+        {
+            region = 647.400, 613.800, 65.200, 93.800
+        }
+    }
+}
+
+enemies
+{
+    ${Scale} = 6.5, 6.5
+    ${SpiderScale} = 5, 5
+    ${SnailSlimeFishSvg} = platformerGraphicsDeluxe_Updated/enemies.svg
+    ${SpiderSvg} = moreEnemiesAnimations/enemies.svg
+    ${SlimeMarginId} = slime
+    ${FishMarginId} = fish
+    ${SnailMarginId} = snail
+    ${SpiderMarginId} = spider
+
+    slime_dead
+    {
+        frame
+        {
+            svg = ${SnailSlimeFishSvg}
+            scale = ${Scale}
+            marginId = ${SlimeMarginId}
+            region = 292.550, 182.800, 57.800, 11.950
+        }
+    }
+
+    slime_walk__
+    {
+        frame 00
+        {
+            svg = ${SnailSlimeFishSvg}
+            scale = ${Scale}
+            marginId = ${SlimeMarginId}
+            region = 369.550, 196.550, 50.149, 25.700
+        }
+
+        frame 01 : 00
+        {
+            region = 439.550, 198.800, 49.450, 27.950
+        }
+    }
+
+    fish_dead
+    {
+        frame
+        {
+            svg = ${SnailSlimeFishSvg}
+            scale = ${Scale}
+            marginId = ${FishMarginId}
+            region = 266.200, 92.350, 65.100, 40.800
+        }
+    }
+
+    fish_swim__
+    {
+        frame 00
+        {
+            svg = ${SnailSlimeFishSvg}
+            scale = ${Scale}
+            marginId = ${FishMarginId}
+            region = 350.450, 92.350, 60.850, 42.050
+        }
+
+        frame 01 : 00
+        {
+            region = 426.200, 92.350, 65.100, 40.800
+        }
+    }
+
+    snail_dead
+    {
+        frame
+        {
+            svg = ${SnailSlimeFishSvg}
+            scale = ${Scale}
+            marginId = ${SnailMarginId}
+            region = 228.076, 29.750, 43.224, 29.157
+        }
+    }
+
+    snail_walk__
+    {
+        frame 00
+        {
+            svg = ${SnailSlimeFishSvg}
+            scale = ${Scale}
+            marginId = ${SnailMarginId}
+            region = 356.875, 30.471, 55.975, 30.371
+        }
+
+        frame 01 : 00
+        {
+            region = 436.900, 30.471, 53.300, 30.371
+        }
+    }
+
+    spider_dead
+    {
+        frame
+        {
+            svg = ${SpiderSvg}
+            scale = ${SpiderScale}
+            marginId = ${SpiderMarginId}
+            region = 90.618, 204.851, 68.484, 50.612
+        }
+    }
+
+    spider_walk__
+    {
+        frame 00
+        {
+            svg = ${SpiderSvg}
+            scale = ${SpiderScale}
+            marginId = ${SpiderMarginId}
+            region = 180.000, 207.411, 75.900, 53.160
+        }
+
+        frame 01 : 00
+        {
+            region = 268.350, 204.636, 71.950, 50.385
+        }
+
+        frame 02 : 00
+        {
+            region = 360.000, 198.864, 70.300, 44.613
+        }
+    }
+}
+
+collectables
+{
+    ${Scale} = 5, 5
+    ${Svg} = platformer-pack-redux-360-assets/vector_tiles.svg
+
+    gem_yellow
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1136.000, 208.950, 38.000, 25.950
+        }
+    }
+
+    gem_green
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1216.000, 208.950, 38.000, 25.950
+        }
+    }
+
+    gem_red
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1296.000, 208.950, 38.000, 25.950
+        }
+    }
+
+    gem_blue
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1376.000, 208.950, 38.000, 25.950
+        }
+    }
+
+    coin_bronze
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1217.500, 771.500, 35.000, 35.000
+        }
+    }
+
+    coin_silver
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1297.500, 771.500, 35.000, 35.000
+        }
+    }
+
+    coin_gold
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1377.500, 771.500, 35.000, 35.000
+        }
+    }
+
+    star
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1218.000, 691.000, 34, 32
+        }
+    }
+}
+
+interactables
+{
+    ${TileSvg} = platformer-pack-redux-360-assets/vector_tiles.svg
+    ${TileScale} = 3.657142857142857, 3.657142857142857
+    ${PhysicsSvg} = kenney_physicsAssets_v2/vector_materialStone.svg
+    ${PhysicsScale} = 3.657142857142857, 3.657142857142857
+
+    platform
+    {
+        frame
+        {
+            svg = kenney_physicsAssets_v2/vector_materialWood.svg
+            scale = ${PhysicsScale}
+            region = 920.000, 770.000, 220.000, 70.000
+        }
+    }
+
+    batch
+    {
+        frame crate_
+        {
+            svg = ${TileSvg}
+            scale = ${TileScale}
+            region = 720, 550, 320, 160
+            size = 70, 70
+            offset = 80, 80
+        }
+    }
+
+    bridge
+    {
+        frame
+        {
+            svg = ${TileSvg}
+            scale = ${TileScale}
+            region = 800.000, 871.000, 70, 20
+        }
+    }
+
+    boulder
+    {
+        frame
+        {
+            svg = ${PhysicsSvg}
+            scale = ${PhysicsScale}
+            region = 920.000, 849.676, 70, 69.676
+        }
+    }
+}
+
+tiles
+{
+    ${TileScale} = 3.657142857142857, 3.657142857142857
+    ${FeaturesScaleMushroom} = 13, 13
+    ${FeaturesScaleSigns} = 4, 4
+    ${FeaturesScalePlants} = 5, 5
+    ${Svg} = platformer-pack-redux-360-assets/vector_tiles.svg
+
+    batch
+    {
+        frame sandyBase
+        {
+            svg = ${Svg}
+            scale = ${TileScale}
+            region = 0, 950, 720, 160
+            size = 70, 70
+            offset = 80, 80
+        }
+
+        frame mudBase : sandyBase
+        {
+            region = 0, 630.000, 720, 160
+        }
+
+        frame ladder : sandyBase
+        {
+            region = 880, 710, 160, 80
+        }
+
+        frame spike : sandyBase
+        {
+            region = 720, 790, 80, 80
+        }
+
+        frame stoneBase : sandyBase
+        {
+            region = 0, 311.000, 720, 160
+        }
+    }
+}
+
+bg
+{
+    ${Scale} = 1.828571428571429, 1.828571428571429
+    ${Svg} = platformer-pack-redux-360-assets/vector_backgrounds.svg
+    ${Padding} = 0, 0
+
+    bg_clouds
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 22.102, 777.975, 560.000, 110
+            padding = ${Padding}
+        }
+    }
+
+    fg_clouds
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 2.863, 429.519, 560.000, 86
+            padding = ${Padding}
+        }
+    }
+
+    fg_horizon
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 22.202, 216.017, 560.000, 41
+            padding = ${Padding}
+        }
+    }
+
+    bg_cactus
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 675.719, 520.854, 383.850, 80.00929203539823
+            padding = ${Padding}
+        }
+    }
+
+    bg_mushrooms
+    {
+        frame 
+        {
+            svg = ${Svg}
+            scale = ${Scale}
+            region = 1729.719, 541.904, 478.950, 102.8159763313609
+            padding = ${Padding}
+        }
+    }
+}

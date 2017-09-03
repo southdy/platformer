@@ -1,0 +1,57 @@
+{"frames": [
+
+{
+	"filename": "bg_cactus.png",
+	"frame": {"x":0,"y":0,"w":701,"h":146},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":701,"h":146},
+	"sourceSize": {"w":701,"h":146},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bg_clouds.png",
+	"frame": {"x":0,"y":146,"w":1024,"h":201},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":201},
+	"sourceSize": {"w":1024,"h":201},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "bg_mushrooms.png",
+	"frame": {"x":0,"y":347,"w":875,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":875,"h":188},
+	"sourceSize": {"w":875,"h":188},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "fg_clouds.png",
+	"frame": {"x":0,"y":535,"w":1024,"h":157},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":157},
+	"sourceSize": {"w":1024,"h":157},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "fg_horizon.png",
+	"frame": {"x":0,"y":692,"w":1024,"h":74},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1024,"h":74},
+	"sourceSize": {"w":1024,"h":74},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bg.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:077da57320019e5914a1d2369fbe5de3:d740ea4b2a504574737f74868255d1d9:fda475f1469833f402cd7f3119be2bc2$"
+}
+}

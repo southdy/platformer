@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="10" tilewidth="64" tileheight="64" nextobjectid="343">
+ <properties>
+  <property name="collectable_scale" value="0.15"/>
+  <property name="texture" value="@res/textures/tiles"/>
+ </properties>
+ <tileset firstgid="1" name="Terrain" tilewidth="64" tileheight="64" tilecount="64" columns="8">
+  <image source="../textures/tiled.png" width="512" height="512"/>
+ </tileset>
+ <layer name="terrain" width="20" height="10">
+  <properties>
+   <property name="texture" value="@res/textures/tiles"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2D4AHEg5qMSlgRiADQMAS0=
+  </data>
+ </layer>
+ <objectgroup name="characters">
+  <object id="187" name="player" x="111.517" y="485.55" width="30" height="30">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision_static">
+  <object id="342" x="0" y="576" width="1280" height="64"/>
+ </objectgroup>
+</map>

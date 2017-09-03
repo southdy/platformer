@@ -1,0 +1,37 @@
+## GamePlay v3.0.0 - extended
+[![Build Status](https://travis-ci.org/louis-mclaughlin/gameplay-platformer.svg?branch=next)](https://travis-ci.org/louis-mclaughlin/platformer)
+
+- Removed samples
+- Removed  non-cmake projects
+- Removed project setup scripts
+- Removed luagen tool
+- Removed download scripts
+- PhysicsCharacter calculates smoothed world position
+- PhysicsCharacter vertical velocity can be clamped to gravity
+- PhysicsCharacter step down can ignore horizontal impulses applied rigid bodies
+- PhysicsCharacter doesn't fix collisions from kinematics with the same parent as itself
+- PhysicsCharacter fix collision phase has callback for ghost object intersections
+- PhysicsCharacter doesn't interpolate transform changes that occur outside the simulation step
+- PhysicsCharacter detects and integrates transform changes made to it by other simulation steps
+- PhysicsCharacter no longer has a step height
+- PhysicsController can interpolate vec3s using bullets accumulator
+- PhysicsController uses btBox2Shape
+- PhysicsController disables force update of all AABBs
+- PhysicsController simulation fixed simulation step set to 120hz
+- PhysicsController debug draw culling
+- PhysicsController can be disabled
+- Forms don't clear the depth buffer
+- PlatformLinux has an unlocked framerate
+- CheckBox collision can be rectangular
+- PhysicsCollisionObjects can be created directly from properties
+- PhysicsCollisionObjects mask and group bits can be set from properties
+- Added performance profiling
+- Game has a callback for the physics simulation step
+- Scene traversal can begin at a specific node
+- Gamepad internal update occurs before physics simulation update
+- Added ref counted properties wrapper
+- Removed file dialog support on Linux to remove gtk dependency
+- Time scale can be modified
+- AL device always closed on exit
+- Added LineBatch
+- AIMessage string parameter updates only when different

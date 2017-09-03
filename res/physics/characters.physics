@@ -1,0 +1,19 @@
+collisionObject player_normal
+{
+    type = CHARACTER
+    shape = CAPSULE
+    mass = 100
+    maxSlopeAngle = 50
+    group = PLAYER_PHYSICS
+    mask = STATIC|DYNAMIC|BRIDGE|WATER|KINEMATIC|ENEMY
+}
+
+collisionObject enemy_trigger_base
+{
+    type = GHOST_OBJECT
+    shape = BOX
+    linearFactor = 1, 1, 0
+    angularFactor = 0, 0, 1
+    group = ENEMY
+    mask = PLAYER_PHYSICS
+}

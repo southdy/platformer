@@ -1,0 +1,19 @@
+form options
+{
+    theme = res/ui/options.theme
+    layout = LAYOUT_FLOW
+    alignment = ALIGN_RIGHT
+    size = 20%, 17%
+
+    checkBox pauseToggle
+    {
+        style = pauseToggleStyle
+        size = 49.75%, 100%
+    }
+
+    checkBox soundToggle
+    {
+        style = soundToggleStyle
+        size = 49.75%, 100%
+    }
+}

@@ -1,0 +1,46 @@
+theme gamepad
+{
+    texture = @res/textures/options
+
+    imageList soundToggleImages
+    {
+        skin checked
+        {
+            region = 0, 256, 256, 256
+        }
+
+        skin unchecked
+        {
+            region = 256, 256, 256, 256
+        }
+    }
+
+    style soundToggleStyle
+    {
+        stateNormal
+        {
+            imageList = soundToggleImages
+        }
+    }
+
+    imageList pauseToggleImages
+    {
+        skin unchecked
+        {
+            region = 0, 0, 256, 256
+        }
+
+        skin checked
+        {
+            region = 256, 0, 256, 256
+        }
+    }
+
+    style pauseToggleStyle
+    {
+        stateNormal
+        {
+            imageList = pauseToggleImages
+        }
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "vars" : 
+    [
+        {"Members" : "[^/]*$"},
+        {"LayerNSPath" : "/layers"},
+        {"LayerChildNSPath" : "{LayerNSPath}/layers_([\\d]*)"},
+        {"LayerChildObjectNSPath" : "{LayerChildNSPath}/objects"},
+        {"LayerChildObjectChildNSPath" : "{LayerChildObjectNSPath}/objects_([\\d]*)"}
+    ],
+
+    "includes" :
+    [
+        "/width",
+        "/height",
+        "/tilewidth",
+        "/tileheight",
+        "/properties",
+        "/properties/texture",
+        "/properties/collectable_scale",
+        "{LayerNSPath}",
+        "{LayerChildNSPath}",
+        "{LayerChildNSPath}/name",
+        "{LayerChildNSPath}/data",
+        "{LayerChildNSPath}/data/{Members}",
+        "{LayerChildObjectNSPath}",
+        "{LayerChildObjectNSPath}/name",
+        "{LayerChildObjectChildNSPath}",
+        "{LayerChildObjectChildNSPath}/x",
+        "{LayerChildObjectChildNSPath}/y",
+        "{LayerChildObjectChildNSPath}/width",
+        "{LayerChildObjectChildNSPath}/height",
+        "{LayerChildObjectChildNSPath}/name",
+        "{LayerChildObjectChildNSPath}/dst",
+        "{LayerChildObjectChildNSPath}/ellipse",
+        "{LayerChildObjectChildNSPath}/polyline",
+        "{LayerChildObjectChildNSPath}/polyline/polyline_[^0]",
+        "{LayerChildObjectChildNSPath}/polyline/polyline_[^0]/{Members}"
+    ],
+
+    "conversions" :
+    [
+        {"{LayerChildObjectChildNSPath}" : { "dst" : {"Vector4" : {"false" : ["x", "y", "width", "height"] } } } },
+        {"{LayerChildObjectChildNSPath}/polyline/polyline_[^0]" : { "point" : {"Vector2" : {"true" : ["x", "y"] } } } }
+    ]
+}

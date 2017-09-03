@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="120" height="25" tilewidth="64" tileheight="64" nextobjectid="338">
+ <properties>
+  <property name="collectable_scale" value="0.15"/>
+  <property name="texture" value="@res/textures/tiles"/>
+ </properties>
+ <tileset firstgid="1" name="Terrain" tilewidth="64" tileheight="64" tilecount="64" columns="8">
+  <image source="../textures/tiled.png" width="512" height="512"/>
+ </tileset>
+ <layer name="terrain" width="120" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztmF0LwiAUhg9U9AGNFUFEVIvddxn1//9YjhiJuaHzOO30PvAykIMKz46TEQEAgBy2KoWWTdrtAGYuHU8gA/iVDfzKBn5lA7+ygV/ZwK88qtQbACzsVE5GzuTWow+VpZZVpD0CfnAGy4bL71Rl7Vjb1N2Y1v0F9pTuvy9n/9YedXP6L8elliPFc2y+S2YOAXP7+M3dccU8X0njOY6Fr9+cHTfn2pPe35KuTDzmM/22jgtLrd5vOVEPTI6Oue+dNr9t+mpzYqjfHB2P6fdqRKLfFI7v9DlrZ9r41DIWSp9fn95OSajfMR03bhfauiaudwlX4Hc8x6bbJuYZCb/fcPmN6djmtiucwG98xz5ubT0dkqF+OfcQGm6/IY5fYqExXA==
+  </data>
+ </layer>
+ <objectgroup name="characters">
+  <object id="187" name="player" x="696.668" y="1233" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="310" name="enemy_slime" x="3918" y="665" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="312" name="enemy_spider" x="4357" y="910.333" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="317" name="enemy_spider" x="4847.67" y="666.333" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="318" name="enemy_slime" x="5067.67" y="666.333" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="319" name="enemy_snail" x="4954.33" y="666.333" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="327" name="enemy_fish" x="5535.67" y="866.333" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="328" name="enemy_fish" x="5625" y="863.667" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="329" name="enemy_fish" x="5746.33" y="859.667" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="330" name="enemy_fish" x="5909" y="858.333" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="331" name="enemy_fish" x="6013" y="859.667" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="332" name="enemy_fish" x="5809" y="862.333" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="333" name="enemy_fish" x="5671.67" y="859.667" width="30" height="30">
+   <ellipse/>
+  </object>
+  <object id="337" name="enemy_snail" x="1369" y="1033" width="30" height="30">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="character_bounds">
+  <object id="190" x="1113.33" y="1089.33" width="525" height="64"/>
+  <object id="311" x="3968" y="960" width="576" height="64"/>
+  <object id="313" x="3840" y="704" width="359.5" height="22"/>
+  <object id="315" x="4800" y="704" width="320" height="17.3333"/>
+  <object id="325" x="5528" y="925.333" width="524" height="144"/>
+ </objectgroup>
+ <objectgroup name="collision_static">
+  <object id="46" x="640" y="1280" width="129.333" height="190.667"/>
+  <object id="111" x="640" y="1280">
+   <polyline points="0,0 -316,316"/>
+  </object>
+  <object id="113" x="1024" y="1280" width="64.6667" height="318.667"/>
+  <object id="115" x="768" y="1280" width="63" height="63"/>
+  <object id="116" x="768" y="1472" width="254.667" height="63"/>
+  <object id="123" x="1088" y="1280" width="63" height="63"/>
+  <object id="124" x="960" y="1280" width="63" height="63"/>
+  <object id="186" x="1090.67" y="1089.33" width="576" height="64"/>
+  <object id="191" x="1088" y="1600" width="4374"/>
+  <object id="198" x="2304" y="896" width="192" height="700"/>
+  <object id="200" x="2496" y="1088" width="257.333" height="192"/>
+  <object id="201" x="3008" y="1088" width="192" height="192"/>
+  <object id="203" x="2496" y="1280" width="704" height="320"/>
+  <object id="209" x="2240" y="896" width="64" height="64"/>
+  <object id="221" x="2496" y="896">
+   <polyline points="0,0 192,192"/>
+  </object>
+  <object id="251" x="3968" y="960" width="574.667" height="64"/>
+  <object id="252" x="3840" y="704" width="384" height="33.3333"/>
+  <object id="275" x="4416" y="128" width="320" height="64"/>
+  <object id="278" x="4800" y="704" width="320" height="36"/>
+  <object id="281" x="5440" y="832" width="64" height="773"/>
+  <object id="283" x="6080" y="832" width="64" height="771.03"/>
+  <object id="285" x="5376" y="832" width="64" height="64"/>
+  <object id="290" x="6144" y="832">
+   <polyline points="0,0 768,768"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision_water">
+  <object id="144" x="0" y="1408" width="576.004" height="192"/>
+  <object id="280" x="5504" y="894" width="576" height="196"/>
+  <object id="289" x="6655" y="1408" width="1025" height="192"/>
+ </objectgroup>
+ <objectgroup name="collision_hand_of_god">
+  <object id="119" x="769" y="1438.5" width="252" height="31"/>
+  <object id="193" x="1091" y="1568" width="1211"/>
+  <object id="207" x="2752" y="1249" width="260" height="30"/>
+  <object id="288" x="3195.83" y="1565.33" width="2247" height="32.6667"/>
+ </objectgroup>
+ <objectgroup name="collision_bridge">
+  <object id="249" x="3200" y="1088">
+   <polyline points="0,0 768,-128"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collectables">
+  <object id="297" x="799.333" y="1249">
+   <polyline points="0,0 64,-64"/>
+  </object>
+  <object id="298" x="990" y="1246.67">
+   <polyline points="0,0 -64,-64"/>
+  </object>
+  <object id="299" x="1740" y="1028">
+   <polyline points="0,0 342.667,-212"/>
+  </object>
+  <object id="305" x="3517.33" y="1033.33">
+   <polyline points="0,0 172,-33.3333"/>
+  </object>
+  <object id="307" x="4449.33" y="278.667">
+   <polyline points="0,0 317.667,333.437"/>
+  </object>
+  <object id="320" x="5184" y="640">
+   <polyline points="0,0 192,128"/>
+  </object>
+  <object id="334" x="6336" y="960">
+   <polyline points="0,0 256,249.322"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="interactive_props">
+  <object id="222" x="2369.96" y="725.651" width="168" height="170">
+   <ellipse/>
+  </object>
+  <object id="227" x="2689.16" y="1023.87" width="64" height="64"/>
+  <object id="233" x="2692.44" y="964.839" width="56" height="58.6667"/>
+  <object id="244" x="2695.6" y="915.394" width="48" height="49.3333"/>
+  <object id="245" x="2696.7" y="865.948" width="48" height="49.3333"/>
+ </objectgroup>
+ <objectgroup name="collision_ladder">
+  <object id="183" x="1052.67" y="1088" width="4" height="95.3333"/>
+  <object id="255" x="4253.67" y="704" width="3.33333" height="161.333"/>
+  <object id="264" x="4445.67" y="278.667" width="3.33333" height="264"/>
+  <object id="265" x="4574.33" y="280" width="3.33333" height="262.667"/>
+  <object id="266" x="4701.83" y="279.333" width="3.33333" height="264"/>
+ </objectgroup>
+ <objectgroup name="collision_kinematic">
+  <object id="194" x="1685.33" y="1109.33" width="128" height="24"/>
+  <object id="197" x="1758.67" y="1117.33">
+   <polyline points="0,0 350.667,-222.667"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision_kinematic">
+  <object id="256" x="3692.48" y="396.97" width="128" height="24"/>
+  <object id="277" x="3757.33" y="410.667">
+   <polyline points="0,0 -37.3333,294.667"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision_kinematic">
+  <object id="269" x="3889.82" y="398.303" width="128" height="24"/>
+  <object id="273" x="3957.33" y="413.333">
+   <polyline points="0,0 364,-1.33333"/>
+  </object>
+ </objectgroup>
+</map>

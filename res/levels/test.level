@@ -1,0 +1,48 @@
+height = 10
+
+layers
+{
+  layers_0
+  {
+    data = eJxjYBgFo2D4AHEg5qMSlgRiADQMAS0=
+    name = terrain
+  }
+
+  layers_1
+  {
+    name = characters
+
+    objects
+    {
+      objects_0
+      {
+        dst = 111.517, 485.55000000000001, 30, 30
+        ellipse = true
+        name = player
+      }
+    }
+  }
+
+  layers_2
+  {
+    name = collision_static
+
+    objects
+    {
+      objects_0
+      {
+        dst = 0, 576, 1280, 64
+      }
+    }
+  }
+}
+
+properties
+{
+  collectable_scale = 0.15
+  texture = @res/textures/tiles
+}
+
+tileheight = 64
+tilewidth = 64
+width = 20

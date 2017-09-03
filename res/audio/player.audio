@@ -1,0 +1,15 @@
+audio jump
+{
+    path = res/audio/sfx/jump.ogg
+}
+
+audio enemy_death
+{
+    path = res/audio/sfx/enemy_death.ogg
+}
+
+audio player_death
+{
+    path = res/audio/sfx/player_death.ogg
+}
+

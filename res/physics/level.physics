@@ -1,0 +1,85 @@
+collisionObject world_collision
+{
+    type = RIGID_BODY
+    shape = BOX
+    kinematic = true
+    linearFactor = 1, 1, 0
+    angularFactor = 0, 0, 1
+    friction = 0.1
+    restitution = 0
+    linearDamping = 0
+    angularDamping = 0
+    mass = 0
+    group = STATIC
+    mask = PLAYER_PHYSICS|DYNAMIC
+}
+
+collisionObject ladder : world_collision
+{
+    type = GHOST_OBJECT
+    group = LADDER
+    mask = PLAYER_PHYSICS
+}
+
+collisionObject platform : world_collision
+{
+    kinematic = true
+    mass = 100
+    friction = 1000
+    group = KINEMATIC
+}
+
+collisionObject bridge : world_collision
+{
+    kinematic = false
+    mass = 50
+    angularDamping = 0.4
+    linearDamping = 0.4
+    group = BRIDGE
+    mask = PLAYER_PHYSICS|DYNAMIC
+}
+
+collisionObject reset : world_collision
+{
+    type = GHOST_OBJECT
+    group = RESET
+    mask = PLAYER_PHYSICS
+}
+
+collisionObject water : world_collision
+{
+    group = WATER
+    mask = PLAYER_PHYSICS
+}
+
+collisionObject dynamic : world_collision
+{
+    kinematic = false
+    mass = 10
+    friction = 10
+    restitution = 0.1
+    anisotropicFriction = 1, 1, 1
+    group = DYNAMIC
+    mask = STATIC|DYNAMIC|BRIDGE|WATER|PLAYER_PHYSICS|KINEMATIC
+}
+
+collisionObject boulder : dynamic
+{
+    shape = SPHERE
+    mass = 50
+}
+
+collisionObject crate : dynamic
+{
+    shape = BOX
+    friction = 5
+}
+
+collisionObject collectable
+{
+    type = GHOST_OBJECT
+    shape = BOX
+    radius = 0
+    group = COLLECTABLE
+    mask = PLAYER_PHYSICS
+}

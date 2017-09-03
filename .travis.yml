@@ -1,0 +1,24 @@
+language: cpp
+before_script:
+  - git submodule update --init --recursive
+  - mkdir build
+  - cd build
+  - cmake --version
+  - cmake -DCMAKE_BUILD_TYPE=Debug ..
+script: make
+compiler:
+  - gcc
+  - clang
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - libglu1-mesa-dev
+    - libogg-dev
+    - libopenal-dev
+    - lib32z1-dev
+notifications:
+  email: false
+sudo: required
+dist: trusty

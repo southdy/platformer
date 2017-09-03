@@ -1,0 +1,580 @@
+height = 25
+
+layers
+{
+  layers_0
+  {
+    data = eJztmF0LwiAUhg9U9AGNFUFEVIvddxn1//9YjhiJuaHzOO30PvAykIMKz46TEQEAgBy2KoWWTdrtAGYuHU8gA/iVDfzKBn5lA7+ygV/ZwK88qtQbACzsVE5GzuTWow+VpZZVpD0CfnAGy4bL71Rl7Vjb1N2Y1v0F9pTuvy9n/9YedXP6L8elliPFc2y+S2YOAXP7+M3dccU8X0njOY6Fr9+cHTfn2pPe35KuTDzmM/22jgtLrd5vOVEPTI6Oue+dNr9t+mpzYqjfHB2P6fdqRKLfFI7v9DlrZ9r41DIWSp9fn95OSajfMR03bhfauiaudwlX4Hc8x6bbJuYZCb/fcPmN6djmtiucwG98xz5ubT0dkqF+OfcQGm6/IY5fYqExXA==
+    name = terrain
+  }
+
+  layers_1
+  {
+    name = characters
+
+    objects
+    {
+      objects_0
+      {
+        dst = 696.66800000000001, 1233, 30, 30
+        ellipse = true
+        name = player
+      }
+
+      objects_1
+      {
+        dst = 3918, 665, 30, 30
+        ellipse = true
+        name = enemy_slime
+      }
+
+      objects_2
+      {
+        dst = 4357, 910.33299999999997, 30, 30
+        ellipse = true
+        name = enemy_spider
+      }
+
+      objects_3
+      {
+        dst = 4847.6700000000001, 666.33299999999997, 30, 30
+        ellipse = true
+        name = enemy_spider
+      }
+
+      objects_4
+      {
+        dst = 5067.6700000000001, 666.33299999999997, 30, 30
+        ellipse = true
+        name = enemy_slime
+      }
+
+      objects_5
+      {
+        dst = 4954.3299999999999, 666.33299999999997, 30, 30
+        ellipse = true
+        name = enemy_snail
+      }
+
+      objects_6
+      {
+        dst = 5535.6700000000001, 866.33299999999997, 30, 30
+        ellipse = true
+        name = enemy_fish
+      }
+
+      objects_7
+      {
+        dst = 5625, 863.66700000000003, 30, 30
+        ellipse = true
+        name = enemy_fish
+      }
+
+      objects_8
+      {
+        dst = 5746.3299999999999, 859.66700000000003, 30, 30
+        ellipse = true
+        name = enemy_fish
+      }
+
+      objects_9
+      {
+        dst = 5909, 858.33299999999997, 30, 30
+        ellipse = true
+        name = enemy_fish
+      }
+
+      objects_10
+      {
+        dst = 6013, 859.66700000000003, 30, 30
+        ellipse = true
+        name = enemy_fish
+      }
+
+      objects_11
+      {
+        dst = 5809, 862.33299999999997, 30, 30
+        ellipse = true
+        name = enemy_fish
+      }
+
+      objects_12
+      {
+        dst = 5671.6700000000001, 859.66700000000003, 30, 30
+        ellipse = true
+        name = enemy_fish
+      }
+
+      objects_13
+      {
+        dst = 1369, 1033, 30, 30
+        ellipse = true
+        name = enemy_snail
+      }
+    }
+  }
+
+  layers_2
+  {
+    name = character_bounds
+
+    objects
+    {
+      objects_0
+      {
+        dst = 1113.3299999999999, 1089.3299999999999, 525, 64
+      }
+
+      objects_1
+      {
+        dst = 3968, 960, 576, 64
+      }
+
+      objects_2
+      {
+        dst = 3840, 704, 359.5, 22
+      }
+
+      objects_3
+      {
+        dst = 4800, 704, 320, 17.333300000000001
+      }
+
+      objects_4
+      {
+        dst = 5528, 925.33299999999997, 524, 144
+      }
+    }
+  }
+
+  layers_3
+  {
+    name = collision_static
+
+    objects
+    {
+      objects_0
+      {
+        dst = 640, 1280, 129.333, 190.667
+      }
+
+      objects_1
+      {
+        dst = 640, 1280, 0, 0
+
+        polyline
+        {
+          point = -316, 316
+        }
+      }
+
+      objects_2
+      {
+        dst = 1024, 1280, 64.666700000000006, 318.66699999999997
+      }
+
+      objects_3
+      {
+        dst = 768, 1280, 63, 63
+      }
+
+      objects_4
+      {
+        dst = 768, 1472, 254.667, 63
+      }
+
+      objects_5
+      {
+        dst = 1088, 1280, 63, 63
+      }
+
+      objects_6
+      {
+        dst = 960, 1280, 63, 63
+      }
+
+      objects_7
+      {
+        dst = 1090.6700000000001, 1089.3299999999999, 576, 64
+      }
+
+      objects_8
+      {
+        dst = 1088, 1600, 4374, 0
+      }
+
+      objects_9
+      {
+        dst = 2304, 896, 192, 700
+      }
+
+      objects_10
+      {
+        dst = 2496, 1088, 257.33300000000003, 192
+      }
+
+      objects_11
+      {
+        dst = 3008, 1088, 192, 192
+      }
+
+      objects_12
+      {
+        dst = 2496, 1280, 704, 320
+      }
+
+      objects_13
+      {
+        dst = 2240, 896, 64, 64
+      }
+
+      objects_14
+      {
+        dst = 2496, 896, 0, 0
+
+        polyline
+        {
+          point = 192, 192
+        }
+      }
+
+      objects_15
+      {
+        dst = 3968, 960, 574.66700000000003, 64
+      }
+
+      objects_16
+      {
+        dst = 3840, 704, 384, 33.333300000000001
+      }
+
+      objects_17
+      {
+        dst = 4416, 128, 320, 64
+      }
+
+      objects_18
+      {
+        dst = 4800, 704, 320, 36
+      }
+
+      objects_19
+      {
+        dst = 5440, 832, 64, 773
+      }
+
+      objects_20
+      {
+        dst = 6080, 832, 64, 771.02999999999997
+      }
+
+      objects_21
+      {
+        dst = 5376, 832, 64, 64
+      }
+
+      objects_22
+      {
+        dst = 6144, 832, 0, 0
+
+        polyline
+        {
+          point = 768, 768
+        }
+      }
+    }
+  }
+
+  layers_4
+  {
+    name = collision_water
+
+    objects
+    {
+      objects_0
+      {
+        dst = 0, 1408, 576.00400000000002, 192
+      }
+
+      objects_1
+      {
+        dst = 5504, 894, 576, 196
+      }
+
+      objects_2
+      {
+        dst = 6655, 1408, 1025, 192
+      }
+    }
+  }
+
+  layers_5
+  {
+    name = collision_hand_of_god
+
+    objects
+    {
+      objects_0
+      {
+        dst = 769, 1438.5, 252, 31
+      }
+
+      objects_1
+      {
+        dst = 1091, 1568, 1211, 0
+      }
+
+      objects_2
+      {
+        dst = 2752, 1249, 260, 30
+      }
+
+      objects_3
+      {
+        dst = 3195.8299999999999, 1565.3299999999999, 2247, 32.666699999999999
+      }
+    }
+  }
+
+  layers_6
+  {
+    name = collision_bridge
+
+    objects
+    {
+      objects_0
+      {
+        dst = 3200, 1088, 0, 0
+
+        polyline
+        {
+          point = 768, -128
+        }
+      }
+    }
+  }
+
+  layers_7
+  {
+    name = collectables
+
+    objects
+    {
+      objects_0
+      {
+        dst = 799.33299999999997, 1249, 0, 0
+
+        polyline
+        {
+          point = 64, -64
+        }
+      }
+
+      objects_1
+      {
+        dst = 990, 1246.6700000000001, 0, 0
+
+        polyline
+        {
+          point = -64, -64
+        }
+      }
+
+      objects_2
+      {
+        dst = 1740, 1028, 0, 0
+
+        polyline
+        {
+          point = 342.66699999999997, -212
+        }
+      }
+
+      objects_3
+      {
+        dst = 3517.3299999999999, 1033.3299999999999, 0, 0
+
+        polyline
+        {
+          point = 172, -33.333300000000001
+        }
+      }
+
+      objects_4
+      {
+        dst = 4449.3299999999999, 278.66699999999997, 0, 0
+
+        polyline
+        {
+          point = 317.66699999999997, 333.43700000000001
+        }
+      }
+
+      objects_5
+      {
+        dst = 5184, 640, 0, 0
+
+        polyline
+        {
+          point = 192, 128
+        }
+      }
+
+      objects_6
+      {
+        dst = 6336, 960, 0, 0
+
+        polyline
+        {
+          point = 256, 249.322
+        }
+      }
+    }
+  }
+
+  layers_8
+  {
+    name = interactive_props
+
+    objects
+    {
+      objects_0
+      {
+        dst = 2369.96, 725.65099999999995, 168, 170
+        ellipse = true
+      }
+
+      objects_1
+      {
+        dst = 2689.1599999999999, 1023.87, 64, 64
+      }
+
+      objects_2
+      {
+        dst = 2692.4400000000001, 964.83900000000006, 56, 58.666699999999999
+      }
+
+      objects_3
+      {
+        dst = 2695.5999999999999, 915.39400000000001, 48, 49.333300000000001
+      }
+
+      objects_4
+      {
+        dst = 2696.6999999999998, 865.94799999999998, 48, 49.333300000000001
+      }
+    }
+  }
+
+  layers_9
+  {
+    name = collision_ladder
+
+    objects
+    {
+      objects_0
+      {
+        dst = 1052.6700000000001, 1088, 4, 95.333299999999994
+      }
+
+      objects_1
+      {
+        dst = 4253.6700000000001, 704, 3.3333300000000001, 161.333
+      }
+
+      objects_2
+      {
+        dst = 4445.6700000000001, 278.66699999999997, 3.3333300000000001, 264
+      }
+
+      objects_3
+      {
+        dst = 4574.3299999999999, 280, 3.3333300000000001, 262.66699999999997
+      }
+
+      objects_4
+      {
+        dst = 4701.8299999999999, 279.33300000000003, 3.3333300000000001, 264
+      }
+    }
+  }
+
+  layers_10
+  {
+    name = collision_kinematic
+
+    objects
+    {
+      objects_0
+      {
+        dst = 1685.3299999999999, 1109.3299999999999, 128, 24
+      }
+
+      objects_1
+      {
+        dst = 1758.6700000000001, 1117.3299999999999, 0, 0
+
+        polyline
+        {
+          point = 350.66699999999997, -222.667
+        }
+      }
+    }
+  }
+
+  layers_11
+  {
+    name = collision_kinematic
+
+    objects
+    {
+      objects_0
+      {
+        dst = 3692.48, 396.97000000000003, 128, 24
+      }
+
+      objects_1
+      {
+        dst = 3757.3299999999999, 410.66699999999997, 0, 0
+
+        polyline
+        {
+          point = -37.333300000000001, 294.66699999999997
+        }
+      }
+    }
+  }
+
+  layers_12
+  {
+    name = collision_kinematic
+
+    objects
+    {
+      objects_0
+      {
+        dst = 3889.8200000000002, 398.303, 128, 24
+      }
+
+      objects_1
+      {
+        dst = 3957.3299999999999, 413.33300000000003, 0, 0
+
+        polyline
+        {
+          point = 364, -1.3333299999999999
+        }
+      }
+    }
+  }
+}
+
+properties
+{
+  collectable_scale = 0.15
+  texture = @res/textures/tiles
+}
+
+tileheight = 64
+tilewidth = 64
+width = 120

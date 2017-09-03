@@ -1,0 +1,34 @@
+form
+{
+    theme = res/ui/gamepad.theme
+    size = 100%, 100%
+
+    container left
+    {
+        alignment = ALIGN_BOTTOM_LEFT
+        size = 22.5%, 40%
+        
+        joystick
+        {
+            style = joystickStyle
+            size = 70%, 70%
+            alignment = ALIGN_VCENTER_HCENTER
+            radius = 5%
+        }
+
+    }
+
+    container right
+    {
+        alignment = ALIGN_BOTTOM_RIGHT
+        size = 22.5%, 40%
+
+        button jump
+        {
+            mapping = BUTTON_A
+            style = jumpButtonStyle
+            size = 70%, 70%
+            alignment = ALIGN_VCENTER_HCENTER
+        }
+    }
+}

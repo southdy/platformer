@@ -1,0 +1,48 @@
+theme gamepad
+{
+    texture = @res/textures/gamepad
+
+    imageList joystickImages
+    {
+        image outer
+        {
+            region = 0, 0, 512, 512
+        }
+
+        image inner
+        {
+            region = 512, 0, 512, 512
+        }
+    }
+
+    skin jumpButtonPressedSkin
+    {
+        region = 512, 512, 512, 512
+    }
+
+    skin jumpButtonNormalSkin
+    {
+        region = 0, 512, 512, 512
+    }
+
+    style joystickStyle
+    {
+        stateNormal
+        {
+            imageList = joystickImages
+        }
+    }
+
+    style jumpButtonStyle
+    {
+        stateNormal
+        {
+            skin = jumpButtonNormalSkin
+        }
+
+        stateActive
+        {
+            skin = jumpButtonPressedSkin
+        }
+    }
+}
