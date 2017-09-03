@@ -1,6 +1,5 @@
 language: cpp
 before_script:
-  - git submodule update --init --recursive
   - mkdir build
   - cd build
   - cmake --version
