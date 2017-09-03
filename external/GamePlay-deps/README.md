@@ -7,3 +7,4 @@
 - Removed bullet examples and documentations
 - Removed curl documentation
 - Removed box2d documentation
+- Workaround for OpenAL crash on exit on Windows
