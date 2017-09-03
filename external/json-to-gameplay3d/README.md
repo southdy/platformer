@@ -1,5 +1,7 @@
-[![Build Status](https://travis-ci.org/louis-mclaughlin/gameplay-json-properties.svg?branch=master)](https://travis-ci.org/louis-mclaughlin/json-properties)
-==============
+# JSON2Gameplay3D
+
+Converts JSON to the GamePlay3D property file format
+
 ```
 $ mkdir build
 $ cd build

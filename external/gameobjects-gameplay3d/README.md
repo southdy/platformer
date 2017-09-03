@@ -1,5 +1,7 @@
-[![Build Status](https://travis-ci.org/louis-mclaughlin/gameplay-gameobjects.svg?branch=master)](https://travis-ci.org/louis-mclaughlin/gameobjects)
-=========
+# GameObjects
+
+Unity-style game objects for GamePlay3D
+
 ```
 $ mkdir build
 $ cd build

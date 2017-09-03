@@ -1,5 +1,4 @@
-## GamePlay v3.0.0 - extended
-[![Build Status](https://travis-ci.org/louis-mclaughlin/gameplay-platformer.svg?branch=next)](https://travis-ci.org/louis-mclaughlin/platformer)
+# GamePlay v3.0.0 - extended
 
 - Removed samples
 - Removed  non-cmake projects

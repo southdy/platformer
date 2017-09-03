@@ -29,7 +29,7 @@ $ ./cmake_xcode.sh
 ## Windows
 - Install [CMake](https://cmake.org/download/) (Select 'Add CMake to the system PATH')
 - Install [Visual Studio Community](https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx)
-- Run cmake_vs<YEAR>_<ARCH>.bat
+- Run the cmake script for your Visual Studio version e.g. 2015 -> cmake_vs2015_x64.bat
 
 ## Android
 - Build the game for your desktop platform
