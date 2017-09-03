@@ -12,4 +12,5 @@
 /src/org
 /res/res
 *.user
+user.config
 *.DS_Store
