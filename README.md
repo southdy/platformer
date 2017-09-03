@@ -6,7 +6,7 @@
 
 ## Linux
 
-#### Ubuntu
+### Ubuntu
 ```
 $ sudo apt-get install git cmake g++ libglu1-mesa-dev libfreetype6-dev libogg-dev libopenal-dev libpulse-dev libglib2.0-dev
 ```
@@ -15,7 +15,7 @@ $ mkdir build
 $ cd build
 $ cmake ..
 ```
-### OSX
+## OSX
 - Install [Xcode](https://developer.apple.com/xcode/)
 - Install [Homebrew](http://brew.sh/)
 ```
