@@ -1,5 +1,3 @@
-# Platformer
-
 [![Build Status](https://travis-ci.org/louis-mclaughlin/platformer.svg?branch=master)](https://travis-ci.org/louis-mclaughlin/platformer)
 
 ![ScreenShot](https://raw.githubusercontent.com/louis-mclaughlin/platformer/master/raw/textures/promo.png)
